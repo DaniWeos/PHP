@@ -24,3 +24,8 @@ function sacar (array $conta, float $valorASacar): array
     }
     return $conta;
 }
+
+function letrasMaisculas (array &$conta)
+{
+    $conta['titular'] = strtoupper($conta['titular']);
+}
