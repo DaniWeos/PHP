@@ -1,6 +1,6 @@
 <?php
 
-$email = 'daníel@alura.com.br';
+$email = '  daníel@alura.com.br';
 $senha = 'ççç';
 $nome = 'Daniel Dias';
 
@@ -25,5 +25,4 @@ echo 'Nome: ' . $nome . PHP_EOL;
 echo 'Sobrenome: ' . $sobrenome . PHP_EOL;
 
 $csv = 'Daniel Dias,24,daniel@alura.com.br';
-
 var_dump(explode(',',$csv)); // aqui separamos a variavel csv baseado na virgula ','
